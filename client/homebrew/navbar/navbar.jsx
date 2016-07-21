@@ -36,6 +36,15 @@ var Navbar = React.createClass({
 				</Nav.item>
 				<Nav.item>v2.2.6</Nav.item>
 
+				<Nav.item className='info' icon='fa-rocket'>
+					Crisis Averted!
+					<div className='dropdown'>
+						I beat back the homunculi from the servers. Everything is working fine.
+						<br />
+						Sorry for the inconvenience! That totally wasn't stressful at all!
+					</div>
+				</Nav.item>
+
 				{this.renderChromeWarning()}
 			</Nav.section>
 			{this.props.children}
